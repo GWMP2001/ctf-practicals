@@ -2,12 +2,16 @@ import java.util.Base64;
 
 public class FlagGen {
   public static void main(String[] paramArrayOfString) {
+      // XOR operations with the specified hexadecimal strings
       String firstPart = xorHex(generateFirstPart(), "fbec81");
       String lastPart = xorHex(generateLastPart(), "95d80f");
 
-      // Concatenate the XORed parts and construct the flag
-      String flag = "flag{" + firstPart + lastPart + "}";
+      // Concatenate the XORed parts to construct the 12-character flag
+      String flag = firstPart + lastPart;
       System.out.println(flag);
+
+      // Call the printHint method
+      printHint();
   }
   
   public static String generateFirstPart() {
