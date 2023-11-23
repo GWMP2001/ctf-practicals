@@ -4,7 +4,7 @@ public class FlagGen {
   public static void main(String[] paramArrayOfString) {
     String str = "Not an actual flag";
     System.out.println("flag{" + str + "}");
-    printHint()
+    printHint();
   }
   
   public static String generateFirstPart() {
