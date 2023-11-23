@@ -6,7 +6,7 @@ public class FlagGen {
       String lastPart = xorHex(generateLastPart(), "95d80f");
 
       // Concatenate the XORed parts and construct the flag
-      String flag = "flag{" + str + firstPart + lastPart + "}";
+      String flag = "flag{" + firstPart + lastPart + "}";
       System.out.println(flag);
   }
   
