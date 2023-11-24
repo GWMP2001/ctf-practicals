@@ -1,0 +1,1 @@
+The flag has been encrypted in the file 'flag.enc' using some Java code. The flag is protected by CryptoUtilsDecrypt reference monitor, which will only decrypt the file if the correct password is provided. 
