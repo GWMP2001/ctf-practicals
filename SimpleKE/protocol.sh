@@ -62,7 +62,7 @@ function injectA() {
   # -----------------------------------------------------------
   
   # We need to sanitise the "+" of base64 before sending it
-  echo $("$PAYLOAD")
+  echo $(sanitise_b64 "$PAYLOAD")
 }
 # ---------------------------------------------------------------------
 
