@@ -1,0 +1,11 @@
+OTP. 
+
+You have managed to obtain the copy of the software used to reset a password
+(which in this case, will get you the password). The software first do a quick
+check that the user interacting with it is human, then asks for the favourite
+UK City of the user (which was pre-recorded and stored as an MD5 hash in
+the software) and finally asks for a Time-based OTP, which is a number
+between 0 and 999 that changes every 100 seconds.
+
+If you can answer all the questions correctly, the software will display
+the flag. 
