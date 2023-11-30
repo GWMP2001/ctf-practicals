@@ -1,0 +1,9 @@
+AC Complex.
+
+As the name suggests, this is a more complex CTF. The situation mimics the case where you have managed to extract some partial information and code from an organisation and you try to leverage this to get further access. 
+
+You are provided with the following: 
+- the binary code for three agents, A, B, and C, who are trying to submit an access request with their own attributes to a policy server;
+- the binary and source code for an agent E, who is trying to submit an access request with their own attributes to a policy server;
+- the address (in policy_info.txt) of a policy enforcement point, flag.php, which uses the attributes of the different agents (A, B, C and E) to decide if a request is permitted or not; if it is, it will provide the flag. This policy enforcement point can be used in the same way as the policy enforcement point for the aclive practical. You do not know what policy is used by this point. 
+- the address (in policy_info.txt) of a policy enforcement point, test.php, which uses the attributes of the different agents (A, B, C and E), such that the request is permitted if any agent sets all of their attributes to True, and denied otherwise. test.php is not needed to get the flag, but you can use it to test your approach, since you know the expected result. 

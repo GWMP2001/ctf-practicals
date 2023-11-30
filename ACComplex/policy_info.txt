@@ -1,0 +1,6 @@
+The address for the script which will return the flag
+is: http://10.0.0.6/ctf_deploy/accomplex/qp41JfojsU/flag.php
+
+The address for the script which returns Permit when any of the agents send all their attributes and Deny otherwise is: http://10.0.0.6/ctf_deploy/accomplex/qp41JfojsU/test.php
+
+
